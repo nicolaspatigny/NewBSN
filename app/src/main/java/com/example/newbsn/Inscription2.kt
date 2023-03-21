@@ -7,7 +7,6 @@ import android.os.Bundle
 import android.widget.Button
 
 class Inscription2 : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inscription2)
@@ -18,11 +17,11 @@ class Inscription2 : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val button1 = findViewById<Button>(R.id.button_continuer_inscription_telepone)
+        val button1 = findViewById<Button>(R.id.buttonContinuerInscriptionEmail)
 
         button1.setOnClickListener {
-            val intent = Intent(this, Inscription3::class.java)
-            startActivity(intent)
+            val intent1 = Intent(this, Inscription3::class.java)
+            startActivity(intent1)
         }
     }
 }
