@@ -1,14 +1,15 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
 }
 
 android {
-    namespace 'com.example.newbsn'
+    namespace 'com.example.bsn_2024'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.newbsn"
+        applicationId "com.example.bsn_2024"
         minSdk 21
         targetSdk 32
         versionCode 1

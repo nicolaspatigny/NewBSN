@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "836431179543",
+    "firebase_url": "https://walkfriends-4ce33-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "walkfriends-4ce33",
+    "storage_bucket": "walkfriends-4ce33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836431179543:android:6fc1ca2e32eda725d29152",
+        "android_client_info": {
+          "package_name": "com.example.bsn_2024"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836431179543-7j0r2lv975tvk0f95bdp6c6tdaioffoj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCak1VYuJ-gHp6RCIYM1MiINQRhE9wr7Xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836431179543-7j0r2lv975tvk0f95bdp6c6tdaioffoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
