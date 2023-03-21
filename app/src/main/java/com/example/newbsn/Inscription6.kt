@@ -1,18 +1,17 @@
 package com.example.newbsn
-
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class Inscription4 : AppCompatActivity() {
+class Inscription6 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_inscription4)
-        val button = findViewById<Button>(R.id.continuerPrenom_DDN)
+        setContentView(R.layout.activity_inscription6)
+        val button = findViewById<Button>(R.id.continuergenre_CGU)
 
         button.setOnClickListener {
-            val intent = Intent(this, Inscription5::class.java)
+            val intent = Intent(this, Inscription7::class.java)
             startActivity(intent)
         }
     }
