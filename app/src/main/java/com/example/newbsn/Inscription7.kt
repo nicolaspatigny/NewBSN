@@ -1,7 +1,7 @@
-package com.example.newbsn
-
+package com.example.bsn_2024
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.bsn_2024.R
 
 class Inscription7 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

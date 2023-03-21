@@ -1,8 +1,9 @@
-package com.example.newbsn
+package com.example.bsn_2024
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.bsn_2024.R
 import android.widget.Button
 
 class Inscription1 : AppCompatActivity() {
