@@ -6,15 +6,22 @@ import android.os.Bundle
 import android.widget.Button
 import com.example.bsn_2024.R
 
-class MainPage : AppCompatActivity() {
+class Inscription2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_page)
-        val button = findViewById<Button>(R.id.inscription)
+        setContentView(R.layout.activity_inscription2)
+        val button = findViewById<Button>(R.id.telephone)
 
         button.setOnClickListener {
             val intent = Intent(this, Inscription1::class.java)
             startActivity(intent)
+        }
+
+        val button1 = findViewById<Button>(R.id.buttonContinuerInscriptionEmail)
+
+        button1.setOnClickListener {
+            val intent1 = Intent(this, Inscription3::class.java)
+            startActivity(intent1)
         }
     }
 }
